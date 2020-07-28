@@ -1,2 +1,7 @@
 *.html
 results/*
+*.t7
+data/cub_icml*
+data/flowers_icml*
+data/train2014_ex_t7*
+data/pretrained*
