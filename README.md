@@ -1,4 +1,4 @@
-## Quick note on this fork
+## This fork
 Given the difficulty of managing the dependencies required to run this code several years after its release (backwards compatibility issues with CUDA/CUDNN versions and LuaTorch etc.), I have added a Dockerfile with the necessary environment to run the code, as well as created a download script for all the pretrained resources needed for evaluation of the pretrained models, which can be run with ```./downloads.sh``` (extremely large download). If you want to train the models you will also need to download the images from the relevant dataset and change the path in the ```CONFIG``` file accordingly.
 
 ## Original README
